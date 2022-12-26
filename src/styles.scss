@@ -1,0 +1,107 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+
+// color palette
+$default-color: #323c47;
+$orange: #f48221;
+$gray: #c4c4c4;
+$blue: #334d6e;
+$white: #ffffff;
+
+// $color1 : #ffffff;
+// $color2 : #252440;
+// $color3 : #8c522f;
+// $corange : #f48221;
+// $color5 : #24233f;
+// $color6 : #f2f6fc;
+// $color7 : #f5f8fe;
+// $color8 : #f3f6fd;
+// $color9 : #f1f4fb;
+// $color10 : #f3f7fd;
+// $color11 : #c4c4c4;
+
+.bg-orange {
+  background: $orange;
+}
+.text-orange {
+  color: $orange;
+}
+
+.bg-gray {
+  background: $gray;
+}
+.text-gray {
+  color: $gray;
+}
+
+.bg-blue {
+  background: $blue;
+}
+.text-blue {
+  color: $blue;
+}
+
+.bg-default-color {
+  background: $default-color;
+}
+.text-default-color {
+  color: $default-color;
+}
+
+.bg-white {
+  background: $white;
+}
+.text-white {
+  color: $white;
+}
+
+// Global Styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: $default-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+//
+
+.container {
+  padding: 0;
+}
